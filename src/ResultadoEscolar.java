@@ -1,15 +1,15 @@
 public class ResultadoEscolar {
-    public static void main(String[] args) {
-        int nota = 6;
-
-        if (nota >=7);
-         System.out.println("APROVADO");       
+   public static void main(String[] args) {
+    int nota = 4;
+    String resultado = nota >=7 ? "APROVADO" : nota >=5 && nota <7 ? "RECUPERAÇÃO" : "REPROVADO";
+    System.out.println(resultado);
+             
         
-    } 
-        else if (nota>=5 && nota <7)
-          System.out.println("PROVA RECUPERAÇÃO");
 
-        else
-         System.out.println("REPROVADO");
+         
+
+        
 
 }
+}
+   
